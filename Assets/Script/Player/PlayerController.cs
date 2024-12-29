@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     }
     public void FixedUpdate()
     {
-        m_rb.velocity = new Vector3(inputDirection.x*moveSpeed,0,inputDirection.y*moveSpeed);
+        m_rb.linearVelocity = new Vector3(inputDirection.x*moveSpeed,0,inputDirection.y*moveSpeed);
     }
     public void OnMove(InputAction.CallbackContext context)
     {

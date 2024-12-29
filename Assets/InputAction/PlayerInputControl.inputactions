@@ -1,5 +1,5 @@
 {
-    "name": "Player",
+    "name": "PlayerInputControl",
     "maps": [
         {
             "name": "KeyBoardAndMouse",
@@ -10,6 +10,15 @@
                     "type": "Value",
                     "id": "49a38084-f83b-4dad-9c33-4126b87c381e",
                     "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ESC",
+                    "type": "Value",
+                    "id": "1349bb96-40b8-4c59-a2cd-4c8159d3979a",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -70,6 +79,17 @@
                     "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "ddb68044-d703-4cfe-a45c-a78275f38a06",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ESC",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
